@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Fixed Facebook Post
+@description    Just Fixed Facebook Post
+@author         sapondanaisriwan <sapondanaisriwan@gmail.com> (https://github.com/sapondanaisriwan) [Adashima#4066]
+@namespace      https://userstyles.world/user/sapondanaisriwan
+@homepageURL    https://github.com/sapondanaisriwan/Fixed-Facebook-Post
+@supportURL     https://github.com/sapondanaisriwan/Fixed-Facebook-Post/issues
+@version        1.0.1
+@license        MIT
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document domain("facebook.com") {
+    .x1y332i5 {
+        display: flex !important;
+        flex-direction: column;
+        > div:nth-child(1) {
+            order: 2;
+        }
+    }
+    .x1a8lsjc {
+        padding-top: 16px;
+    }
+    
+    div.x1n2onr6.x1mh8g0r.x11i5rnm.xod5an3 {
+        margin-bottom: 0px;
+    }
+    
+}
